@@ -1,0 +1,6 @@
+<!ELEMENT BDsms (sms*)>
+<!ELEMENT sms (telefono, fecha, hora, mensaje)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!IELEMENT hora (#PCDATA)>
+<!lELEMENT mensaje (#PCDATA)>
