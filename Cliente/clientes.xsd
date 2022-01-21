@@ -1,0 +1,18 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="clientes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="sede" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="direccion"/>
+              <xs:element type="xs:string" name="empleado"/>
+              <xs:element type="xs:string" name="fecha"/>
+              <xs:element type="xs:string" name="descripcion"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
