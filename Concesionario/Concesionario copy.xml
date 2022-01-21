@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Concesionario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Concesionario.xsd">
+    <Coche>
+        <CodCoche>123456789</CodCoche>
+        <marca>Opel</marca>
+        <modelo>Astra</modelo>
+        <matricula>25512 CPP</matricula>
+        <Potencia>120hp</Potencia>
+        <plazas>5</plazas>
+        <NPuertas>5</NPuertas>
+    </Coche>
+    <Coche>
+        <CodCoche>5498461684</CodCoche>
+        <marca>Lamborghini</marca>
+        <modelo>SestoElemto</modelo>
+        <matricula>23894 AGP</matricula>
+        <Potencia>1200hp</Potencia>
+        <plazas>2</plazas>
+        <NPuertas>3</NPuertas>
+    </Coche>
+    <Coche>
+        <CodCoche>5689874123</CodCoche>
+        <marca>Porshe</marca>
+        <modelo>Macan</modelo>
+        <matricula>56894 HUF</matricula>
+        <Potencia>340hp</Potencia>
+        <plazas>5</plazas>
+        <NPuertas>5</NPuertas>
+    </Coche>
+    <Coche>
+        <CodCoche>256398741</CodCoche>
+        <marca>Opel</marca>
+        <modelo>Meriva</modelo>
+        <matricula>25502 CUP</matricula>
+        <Potencia>90hp</Potencia>
+        <plazas>5</plazas>
+        <NPuertas>5</NPuertas>
+    </Coche>
+    <Coche>
+        <CodCoche>78965413</CodCoche>
+        <marca>Mercedes</marca>
+        <modelo>Vito</modelo>
+        <matricula>58964 GTF</matricula>
+        <Potencia>100hp</Potencia>
+        <plazas>7</plazas>
+        <NPuertas>5</NPuertas>
+    </Coche>
+</Concesionario>
