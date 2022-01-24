@@ -1,7 +1,47 @@
-<!ELEMENT clientes (sede*)>
-<!ELEMENT sede (direccion, empleado, fecha, descripcion)>
-<!ELEMENT cliente (numero, coste, resumen, plazo)>
-<!ELEMENT telefono (#PCDATA)>
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT clientes (sede)+>
+<!ATTLIST clientes
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT sede (direccion,empleado,fecha,descripcion?,cliente+)>
+<!ATTLIST sede
+  xmlns CDATA #FIXED ''
+  codigo CDATA #REQUIRED>
+
+<!ELEMENT direccion (#PCDATA)>
+<!ATTLIST direccion
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT empleado (#PCDATA)>
+<!ATTLIST empleado
+  xmlns CDATA #FIXED ''>
+
 <!ELEMENT fecha (#PCDATA)>
-<!ELEMENT hora (#PCDATA)>
-<!ELEMENT mensaje (#PCDATA)>
+<!ATTLIST fecha
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT descripcion (#PCDATA)>
+<!ATTLIST descripcion
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT cliente (numero,coste,resumen,plazo)>
+<!ATTLIST cliente
+  xmlns CDATA #FIXED ''
+  codigo CDATA #REQUIRED>
+
+<!ELEMENT numero (#PCDATA)>
+<!ATTLIST numero
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT coste (#PCDATA)>
+<!ATTLIST coste
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT resumen (#PCDATA)>
+<!ATTLIST resumen
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT plazo (#PCDATA)>
+<!ATTLIST plazo
+  xmlns CDATA #FIXED ''>
