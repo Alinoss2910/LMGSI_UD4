@@ -29,5 +29,11 @@
             <resumen>Vender</resumen>
             <plazo>5</plazo>
         </cliente>
+        <cliente codigo="8974563211">
+            <numero>1</numero>
+            <coste>160000</coste>
+            <resumen>Comprar</resumen>
+            <plazo>9</plazo>
+        </cliente>
     </sede>
 </clientes>
