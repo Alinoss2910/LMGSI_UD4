@@ -1,4 +1,11 @@
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:annotation>
+  <xs:documentation xml:lang="Es-es">
+    Esquema para sms
+    <fecha>28/01/2022</fecha>
+    <autor>Airam Linares Ossorio</autor>
+  </xs:documentation>
+</xs:annotation>
   <xs:element name="BDsms">
     <xs:complexType>
       <xs:sequence>
