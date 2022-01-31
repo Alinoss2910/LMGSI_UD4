@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE alumnos SYSTEM "practicas.dtd">
+<alumnos>
+    <alumno>
+        <nif>32912867M</nif>
+        <resultado>Apto</resultado>
+        <obsevaciones></obsevaciones>
+        <ip>10.0.0.2</ip>
+    </alumno>
+    <alumno>
+        <nif>11111111A</nif>
+        <resultado>No Apto</resultado>
+        <mac>5A:2F:12:FC:08:AC</mac>
+    </alumno>
+</alumnos>
