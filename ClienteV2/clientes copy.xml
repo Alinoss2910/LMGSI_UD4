@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="clientes.xsd">
+    <sede codigo="A0000000">
+        <direccion>C/alameda</direccion>
+        <empleado>Pepe Cazada</empleado>
+        <fecha>2015-06-15</fecha>
+        <descripcion>Vender casa</descripcion>
+        <cliente codigo="AAA-012">
+            <numero>2</numero>
+            <vivienda ID="001">
+                <coste>1500000</coste>
+                <resumen>Cambio de papeles</resumen>
+                <plazo>10</plazo>
+            </vivienda>
+            <vivienda ID="002">
+                <coste>150000</coste>
+                <resumen>Vender</resumen>
+                <plazo>15</plazo>
+            </vivienda>
+        </cliente>
+        <cliente codigo="BBB-987">
+            <numero>1</numero>
+            <vivienda ID="001">
+                <coste>150000</coste>
+                <resumen>Cambio de papeles</resumen>
+                <plazo>10</plazo>
+            </vivienda>
+        </cliente>
+    </sede>
+    <sede codigo="B0000000">
+        <direccion>C/ Anafera</direccion>
+        <empleado>Coby Brian</empleado>
+        <fecha>2015-10-08</fecha>
+        <cliente codigo="CCC-765">
+            <numero>3</numero>
+            <vivienda ID="001">
+                <coste>150000</coste>
+                <resumen>Cambio de papeles</resumen>
+                <plazo>10</plazo>
+            </vivienda>
+            <vivienda ID="002">
+                <coste>150000</coste>
+                <resumen>Vender</resumen>
+                <plazo>15</plazo>
+            </vivienda>
+            <vivienda ID="003">
+                <coste>150000</coste>
+                <resumen>Vender</resumen>
+                <plazo>15</plazo>
+            </vivienda>
+        </cliente>
+    </sede>
+</clientes>
