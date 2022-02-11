@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/editorial.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE editorial SYSTEM "editorial.dtd">
+
+    <editorial>
+    ...
+    </editorial>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT editorial (cabezera|tabla)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT cabezera (titulo|subtitulo|descripcion|fecha)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT titulo (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT subtitulo (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT descripcion (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT fecha (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT tabla (region|trimestre|libros_vendidos)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT region (norte|centro|sur)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT norte (#PCDATA|trimestre|librosVendidos)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT trimestre (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT librosVendidos (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT centro (#PCDATA|trimestre|librosVendidos)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT sur (#PCDATA|trimestre|librosVendidos)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT libros_vendidos (#PCDATA)>
