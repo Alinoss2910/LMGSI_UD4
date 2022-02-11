@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editorial>
+    <cabezera>
+        <titulo>Ediciones Aranda</titulo>
+        <subtitulo>Informe regional de ventas</subtitulo>
+        <descripcion>Descripcion: Informe de ventas para llas regiones Norte, Centro y Sur</descripcion>
+        <fecha>Fecha del informe: 30/12/2009</fecha>
+    </cabezera>
+    <tabla>
+        <region>
+            <norte>Norte
+                <trimestre>1</trimestre>
+                    <librosVendidos>24000</librosVendidos>
+                <trimestre>2</trimestre>
+                    <librosVendidos>38600</librosVendidos>
+                <trimestre>3</trimestre>
+                    <librosVendidos>No_Info</librosVendidos>
+                <trimestre>4</trimestre>
+                    <librosVendidos>No_Info</librosVendidos>
+            </norte>
+        </region>
+        <region>
+            <centro>Centro
+                <trimestre>1</trimestre>
+                    <librosVendidos>No_Info</librosVendidos>
+                <trimestre>2</trimestre>
+                    <librosVendidos>16080</librosVendidos>
+                <trimestre>3</trimestre>
+                    <librosVendidos>25000</librosVendidos>
+                <trimestre>4</trimestre>
+                    <librosVendidos>29000</librosVendidos>
+            </centro>
+        </region>
+        <region>
+            <sur>Sur
+                <trimestre>1</trimestre>
+                    <librosVendidos>27000</librosVendidos>
+                <trimestre>2</trimestre>
+                    <librosVendidos>31400</librosVendidos>
+                <trimestre>3</trimestre>
+                    <librosVendidos>40100</librosVendidos>
+                <trimestre>4</trimestre>
+                    <librosVendidos>30000</librosVendidos>
+            </sur>
+        </region>
+    </tabla>
+</editorial>
